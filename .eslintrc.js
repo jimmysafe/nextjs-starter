@@ -19,6 +19,8 @@ module.exports = {
             2,
             { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
         ],
+        'no-use-before-define': 'off',
+        '@typescript-eslint/no-use-before-define': ['error'],
         'react/react-in-jsx-scope': 'off',
         '@typescript-eslint/interface-name-prefix': 'off',
         '@typescript-eslint/explicit-function-return-type': 'off',
